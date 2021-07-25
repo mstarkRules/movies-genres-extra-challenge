@@ -66,9 +66,10 @@ export function App() {
         clickButtonAction={(id: number) => handleClickButton(id)}
         selectedGenre={selectedGenre}
       />
-
-      <Header selectedGenre={selectedGenre} />
-      <Content selectedGenre={selectedGenre} movies={movies} />
+      <div className="container">
+        <Header selectedGenre={selectedGenre} />
+        <Content selectedGenre={selectedGenre} movies={movies} />
+      </div>
     </div>
   );
 }
