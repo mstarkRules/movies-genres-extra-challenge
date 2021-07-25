@@ -24,7 +24,6 @@ interface Movie {
 }
 
 export function Content(props: ContentProps) {
-  // Complete aqui
   return (
     <div className="container">
       <main>
